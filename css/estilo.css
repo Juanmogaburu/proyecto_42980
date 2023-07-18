@@ -84,9 +84,6 @@ nav ul li a{
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
-    margin-right: -2%;
-    margin-left: -10px;
-
 }
 /*foto grande en pagina principal*/
 .FotoPrincipal{ 
@@ -117,8 +114,6 @@ nav ul li a{
     background-color: rgb(58, 58, 58);
     font-size: 3.2rem;
     margin-top: -8px;
-    margin-left: -10px;
-    margin-right: -10px;
 }
 /*desde aca arranca las paginas de productos, repuestos y ind y acc*/
 /*propaganda de la pagina*/
@@ -430,8 +425,6 @@ body {
         background-color: rgb(58, 58, 58);
         width: 100vw;
         text-align: center;
-        margin-right: -10px;
-        margin-left: -10px;
         padding: 10px;
     }
     /*Formularios, pero lo de adentro*/
@@ -442,6 +435,10 @@ body {
         font-size: 1rem;
         text-align: center;
         padding: 10px;
+    }
+    .ListadosConsultas{
+        background-color: white;
+        width: 80vh;
     }
 }
 /*estilo para pantallas medianas, como tablets*/
