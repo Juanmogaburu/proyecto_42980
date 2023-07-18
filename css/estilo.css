@@ -345,21 +345,21 @@ body {
     }
     /* Estilos para la navegación */
     .Navegacion {
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
 
     /* Lista de navegación */  
     .ListaItem {
-    font-family: 'Bebas Neue', sans-serif;
-    color: white; /* Cambiamos el color del texto para que sea visible en el fondo negro */
-    background-color: rgb(58, 58, 58);
-    text-align: center;
-    font-size: 5rem; /* Aumentamos el tamaño del texto */
-    padding: 20px; /* Reducimos el espacio interno para que no ocupe demasiado */
-    margin: 20px;
+        font-family: 'Bebas Neue', sans-serif;
+        color: white; /* Cambiamos el color del texto para que sea visible en el fondo negro */
+        background-color: rgb(58, 58, 58);
+        text-align: center;
+        font-size: 5rem; /* Aumentamos el tamaño del texto */
+        padding: 20px; /* Reducimos el espacio interno para que no ocupe demasiado */
+        margin: 20px;
     }
 
     /* Etiqueta ancla de la lista de navegación */
@@ -387,13 +387,13 @@ body {
     } 
     /*parrafo que habla de nuestros productos*/
     .ParrafoInicial{
-    color: rgb(255, 255, 255);
-    font-size: 2rem;
-    font-family: 'Bebas Neue', sans-serif;
-    font-weight: 100;
-    background-color:rgb(58, 58, 58);
-    text-align: center;
-    margin-top: auto;
+        color: rgb(255, 255, 255);
+        font-size: 2rem;
+        font-family: 'Bebas Neue', sans-serif;
+        font-weight: 100;
+        background-color:rgb(58, 58, 58);
+        text-align: center;
+        margin-top: auto;
     }
     /*h3 de la pagina consultas*/
     .ParteConsulta{
@@ -436,7 +436,8 @@ body {
     }
     .ListadosConsultas{
         background-color: white;
-        width: 80vh;
+        width: 50vh;
+        align-items: center;
     }
 }
 /*estilo para pantallas medianas, como tablets*/
