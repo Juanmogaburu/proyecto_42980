@@ -24,8 +24,6 @@ nav ul li a{
     background-color: rgb(255, 255, 255);
     text-align: center;
     margin-top: 0px;
-    margin-left: -10%;
-    margin-right: -10%;
 } 
 /* Estilos para la navegación */
 .Navegacion {
@@ -134,8 +132,6 @@ nav ul li a{
     display: block;
     margin-top: auto;
     width: 100vw;
-    margin-right: -10px;
-    margin-left: -10px;
     padding: 0px 10px;
 }
 /*informacion de donde vienen las motos*/
@@ -176,8 +172,6 @@ nav ul li a{
     margin-top: auto;
     width: 100vw;
     display: block;
-    margin-right: -10px;
-    margin-left: -10px;
 }
 /*h2 de la pagina consultas*/
 .ParteAyuda{
@@ -210,9 +204,8 @@ nav ul li a{
     background-color: rgb(58, 58, 58);
     width: 100vw;
     text-align: center;
-    margin-right: -10px;
-    margin-left: -10px;
     padding: 10px;
+    width: 100%;
 }
 /*Formularios, pero lo de adentro*/
 .LlenadoFormularios{
@@ -227,6 +220,7 @@ nav ul li a{
 .ListadosConsultas{
     background-color: white;
     width: 90vh;
+    width: 70%;
 }
 /*informacion de lo que va adentro de los div*/
 .Div{
@@ -355,24 +349,24 @@ body {
         background-color: white;
         width: 400px;
         height: 200px;
-    }
+        }
     /* Estilos para la navegación */
-    .Navegacion {
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+   .Navegacion {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
 
     /* Lista de navegación */  
     .ListaItem {
-    font-family: 'Bebas Neue', sans-serif;
-    color: white; /* Cambiamos el color del texto para que sea visible en el fondo negro */
-    background-color: rgb(58, 58, 58);
-    text-align: center;
-    font-size: 5rem; /* Aumentamos el tamaño del texto */
-    padding: 20px; /* Reducimos el espacio interno para que no ocupe demasiado */
-    margin: 20px;
+        font-family: 'Bebas Neue', sans-serif;
+        color: white; /* Cambiamos el color del texto para que sea visible en el fondo negro */
+        background-color: rgb(58, 58, 58);
+        text-align: center;
+        font-size: 5rem; /* Aumentamos el tamaño del texto */
+        padding: 20px; /* Reducimos el espacio interno para que no ocupe demasiado */
+        margin: 20px;
     }
 
     /* Etiqueta ancla de la lista de navegación */
@@ -390,29 +384,27 @@ body {
     }
     /*parrafo donde explica donde pueden encontrarnos*/
     .ParrafosDescriptivos{
-    color: rgb(0, 0, 0);
-    font-size: 1.5rem;
-    font-family: 'Bebas Neue', sans-serif;
-    font-weight: 300;
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    margin-top: 0px;
-    margin-left: -10%;
-    margin-right: -10%;
+        color: rgb(0, 0, 0);
+        font-size: 1.5rem;
+        font-family: 'Bebas Neue', sans-serif;
+        font-weight: 300;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        margin-top: 0px;
     } 
     /*parrafo que habla de nuestros productos*/
     .ParrafoInicial{
-    color: rgb(255, 255, 255);
-    font-size: 2rem;
-    font-family: 'Bebas Neue', sans-serif;
-    font-weight: 100;
-    background-color:rgb(58, 58, 58);
-    text-align: center;
-    margin-top: auto;
+        color: rgb(255, 255, 255);
+        font-size: 2rem;
+        font-family: 'Bebas Neue', sans-serif;
+        font-weight: 100;
+        background-color:rgb(58, 58, 58);
+        text-align: center;
+        margin-top: auto;
     }
     /*h3 de la pagina consultas*/
     .ParteConsulta{
-        color: white;
+         color: white;
         background-color: rgb(58, 58, 58);
         font-family: 'Bebas Neue', sans-serif;
         text-align: left;
