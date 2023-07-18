@@ -346,7 +346,7 @@ body {
         height: 200px;
         }
     /* Estilos para la navegación */
-   .Navegacion {
+    .Navegacion {
         background-color: black;
         display: flex;
         flex-direction: column;
