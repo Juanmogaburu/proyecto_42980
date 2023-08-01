@@ -1,0 +1,150 @@
+/*main*/
+/*informacion y padre de los productos, repuestos y ind y acc*/
+.TodoDiv{
+    background-color: rgb(58, 58, 58);
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    flex-direction: column;
+    width: 100%;
+    margin-top: auto;
+    /*imagenes de los productos y respuestos*/
+        .ImagenesProductos{
+            font-size: map-get($estilos, 1rem);
+            color: white;
+            background-color: white;
+            margin-top: auto;
+            width: 700px;
+            height: 400px;
+        }
+    }
+/*formularios de la pagina de consultas*/
+.Formularios{
+    font-size: map-get($estilos, 1rem);
+    color: white;
+    color: map-get($estilos, color);
+    width: 100vw;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    /*Formularios, pero lo de adentro*/
+    .LlenadoFormularios{
+        color: map-get($estilos, color);
+        color: white;
+        margin-bottom: 10px;
+        font-size: 1rem;
+        text-align: center;
+        padding: 10px;
+    }
+}
+/*parrafo que habla de nuestros productos*/
+.ParrafoInicial{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100;
+    background-color:rgb(58, 58, 58);
+    text-align: center;
+    margin-top: auto;
+}
+/*parrafo donde explica donde pueden encontrarnos*/
+.ParrafosDescriptivos{
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 300;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 0px;
+} 
+/*propaganda de la pagina*/
+.Subtitulo{
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    color: white;
+    background-color:rgb(58, 58, 58);
+    font-size: 2rem;
+    margin-bottom: 0px;
+    display: block;
+    margin-top: auto;
+    width: 100vw;
+    padding: 0px 10px;
+}
+/* h2 de la pagina productos*/
+.TextoBuscados{
+    color: white;
+    color: map-get($estilos, color);
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0px;
+    margin-top: auto;
+    width: 100vw;
+    display: block;
+}
+/*informacion de donde vienen las motos*/
+.ParrafoFinalProductos{
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    background-color:rgb(255, 255, 255);
+    color: black;
+    font-size: 2rem;
+    padding: 1px 300px; 
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+/*h2 de la pagina consultas*/
+.ParteAyuda{
+    color: white;
+    color: map-get($estilos, color);
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 0px;
+    margin-top: auto;
+    width: 100vw;
+    padding: 0px 15px;
+}
+/*h3 de la pagina consultas*/
+.ParteConsulta{
+    color: white;
+    color: map-get($estilos, color);
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 0px;
+    margin-top: auto;
+    width: 100vw;
+    padding: 0px 15px;
+}
+/*informacion de lo que va adentro de los div*/
+.Div{
+    color: white;
+    color: map-get($estilos, color);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 30px;
+    font-size: 1.8rem;
+
+}
+.Formularios .ListadosConsultas{
+    background-color: white;
+    width: 70%;
+}
+.BotonComprar{
+    font-size: map-get($estilos, 1rem);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+/*FIN DEL MAIN*/

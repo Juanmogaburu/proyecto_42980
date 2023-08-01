@@ -1,0 +1,15 @@
+{
+  "name": "proyecto-desarrollo-web",
+  "version": "1.0.0",
+  "description": "Proyecto rombaut",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "proyecto_42980"
+  },
+  "author": "Juan",
+  "license": "ISC"
+}
