@@ -8,6 +8,7 @@
     .ListaItem {
         font-family: 'Bebas Neue', sans-serif;
         @include TextoBlanco;
+        background-color: map-get($estilos, color );
         text-align: center;
         font-size: 1.3rem;
         padding: 5px;
@@ -16,8 +17,13 @@
         flex-direction: column;
         justify-content: center;
 
-        a:hover {
-            color: orange;
+        a {
+            color: white;
+            text-decoration: underline orange; 
+
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 }
