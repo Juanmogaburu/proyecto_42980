@@ -102,6 +102,15 @@
 /*FIN DEL FOTTER*/
 /*estilo para pantallas pequeñas, como telefonos moviles*/
 @media (max-width:600px){
+    .ParrafoFinalProductos {
+        font-size: 1.5rem; /* Ajusta el tamaño de fuente para pantallas más pequeñas */
+        padding: 10px; /* Ajusta el espacio interno para pantallas más pequeñas */
+    }
+
+    .ParrafoFinalProductos video {
+        width: 100%; /* Video ocupará todo el ancho disponible */
+    }
+
 /* Estilos para la navegación */
 .Navegacion {
     background-color: black;
@@ -273,18 +282,6 @@ nav ul li a{
     margin-top: auto;
     width: 100vw;
     display: block;
-}
-/*informacion de donde vienen las motos*/
-.ParrafoFinalProductos{
-    font-family: 'Bebas Neue', sans-serif;
-    text-align: center;
-    background-color:rgb(255, 255, 255);
-    color: black;
-    font-size: 2rem;
-    padding: 1px 300px; 
-    display: block;
-    width: 100%;
-    margin-top: 10px;
 }
 /*h2 de la pagina consultas*/
 .ParteAyuda{
