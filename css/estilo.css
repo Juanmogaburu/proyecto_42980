@@ -184,48 +184,34 @@
 }
 
 /*FIN DEL FOTTER*/
-/*header*/
 .Navegacion {
   background-color: black;
   display: flex;
   flex-direction: column;
   width: 100%;
-  /* Lista de navegación */
 }
 .Navegacion .ListaItem {
   font-family: "Bebas Neue", sans-serif;
-  color: white; /* Cambiamos el color del texto para que sea visible en el fondo negro */
   color: white;
   text-align: center;
-  font-size: 1.3rem; /* Aumentamos el tamaño del texto */
-  padding: 5px; /* Reducimos el espacio interno para que no ocupe demasiado */
+  font-size: 1.3rem;
+  padding: 5px;
   margin: 10px;
   display: inline-block;
   flex-direction: column;
   justify-content: center;
-  /* Etiqueta ancla de la lista de navegación */
 }
-.Navegacion .ListaItem .ListaItem a:hover {
+.Navegacion .ListaItem a:hover {
   color: orange;
 }
 
-/*parrafo donde se hace propaganda*/
-nav ul li a {
-  text-decoration-color: orange;
-  color: rgb(255, 255, 255);
-  color: white;
-}
-
-/*titulo de las paginas*/
 .TituloIndex {
   text-align: center;
-  color: white;
   color: white;
   font-size: 3.2rem;
   margin-top: -8px;
 }
 
-/*etiqueta ancla padre del lofo de la pagina*/
 .LogoPadre {
   display: flex;
   justify-content: center;
@@ -233,7 +219,6 @@ nav ul li a {
   color: black;
 }
 
-/*logo de la pagina*/
 .LogoPagina {
   background-color: black;
   color: black;
@@ -244,13 +229,11 @@ nav ul li a {
   height: 250px;
 }
 
-/*foto grande en pagina principal*/
 .FotoPrincipal {
   font-size: 1rem;
   padding: 20px 120px;
 }
 
-/*fin del header*/
 /*main*/
 /*informacion y padre de los productos, repuestos y ind y acc*/
 .TodoDiv {
