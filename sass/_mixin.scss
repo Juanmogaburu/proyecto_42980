@@ -1,0 +1,25 @@
+@mixin TextoBlanco {
+    color: $colordos;
+}
+
+@mixin TituloEstilos {
+    text-align: center;
+    color: $colordos;
+    font-size: 3.2rem;
+    margin-top: -8px;
+}
+
+@mixin LogoEstilos {
+    background-color: black;
+    color: black;
+    font-size: $rem;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 250px;
+}
+
+@mixin FotoPrincipalEstilos {
+    font-size: $rem;
+    padding: 20px 120px;
+}

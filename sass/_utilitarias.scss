@@ -1,14 +1,21 @@
 /*parrafo donde se hace propaganda*/
-nav ul li a{
-    text-decoration-color: orange;
-    color: rgb(255, 255, 255);
-    background-color: rgb(58, 58, 58);
+.nav{
+ background-color: map-get($estilos, color);    
+    .ul{ 
+        .li{ 
+            .a{
+            text-decoration-color: orange;
+            color: rgb(255, 255, 255);
+            background-color: rgb(58, 58, 58);
+            }
+        }
+    }
 }
 /*header*/
 /*titulo de las paginas*/
 .TituloIndex{
     text-align: center;
-    color: white;
+    color: map-get($estilos, colordos);
     background-color: rgb(58, 58, 58);
     font-size: 3.2rem;
     margin-top: -8px;

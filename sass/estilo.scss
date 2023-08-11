@@ -4,6 +4,7 @@
 @import 'header.scss';
 @import 'main.scss';
 @import 'fotter.scss';
+@import 'mixin.scss';
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 /* Estilos para la navegación */
 .Navegacion {
@@ -93,6 +94,9 @@
             background-color: white;
             padding: 10px ;
             align-items: center;        
+        }
+        .LasRedes:hover{
+        background-color: rgb(58, 58, 58);
         }
     }
 /*FIN DEL FOTTER*/
@@ -332,6 +336,9 @@ nav ul li a{
     margin-bottom: 15px;
     margin-top: 15px;
     font-family: 'Ubuntu', sans-serif;
+}
+.BotonComprar:hover{
+    background-color: map-get($estilos, color);
 }
 /*FIN DEL MAIN*/
 /*footer*/

@@ -16,8 +16,9 @@
             color: white;
             background-color: white;
             margin-top: auto;
-            width: 700px;
-            height: 400px;
+            width: 400px;
+            height: 200px;
+            width: 100%;
         }
     }
 /*formularios de la pagina de consultas*/
@@ -37,6 +38,25 @@
         font-size: 1rem;
         text-align: center;
         padding: 10px;
+    }
+}
+/*pagina de error 404*/
+.diverror{
+    font-size: map-get($estilos, 1rem);
+    color: map-get($estilos, colordos);
+    background-color: map-get($estilos, color);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    .error404{
+        font-size: map-get($estilos, 1rem);
+        color: map-get($estilos, colordos);
+        background-color: map-get($estilos, color);
+        margin-top: auto;
+        width: 800px;
+        height: 400px;
+        margin-top: 100px;
+        margin-bottom: 100px;
     }
 }
 /*parrafo que habla de nuestros productos*/
@@ -66,22 +86,20 @@
     color: white;
     background-color:rgb(58, 58, 58);
     font-size: 2rem;
-    margin-bottom: 0px;
     display: block;
     margin-top: auto;
-    width: 100vw;
-    padding: 0px 10px;
+    width: 100%;
 }
 /* h2 de la pagina productos*/
 .TextoBuscados{
     color: white;
-    color: map-get($estilos, color);
+    color: map-get($estilos, colordos);
     font-family: 'Bebas Neue', sans-serif;
     text-align: center;
     font-size: 2rem;
     margin-bottom: 0px;
     margin-top: auto;
-    width: 100vw;
+    width: 100%;
     display: block;
 }
 /*informacion de donde vienen las motos*/
@@ -99,31 +117,31 @@
 /*h2 de la pagina consultas*/
 .ParteAyuda{
     color: white;
-    color: map-get($estilos, color);
+    color: map-get($estilos, colordos);
     font-family: 'Bebas Neue', sans-serif;
     text-align: left;
     font-size: 2rem;
     margin-bottom: 0px;
     margin-top: auto;
-    width: 100vw;
+    width: 100%;
     padding: 0px 15px;
 }
 /*h3 de la pagina consultas*/
 .ParteConsulta{
     color: white;
-    color: map-get($estilos, color);
+    color: map-get($estilos, colordos);
     font-family: 'Bebas Neue', sans-serif;
     text-align: left;
     font-size: 2rem;
     margin-bottom: 0px;
     margin-top: auto;
-    width: 100vw;
+    width: 100%;
     padding: 0px 15px;
 }
 /*informacion de lo que va adentro de los div*/
 .Div{
     color: white;
-    color: map-get($estilos, color);
+    color: map-get($estilos, colordos);
     text-align: center;
     display: flex;
     align-items: center;
@@ -138,6 +156,7 @@
     width: 70%;
 }
 .BotonComprar{
+    background-color: map-get($estilos, color);
     font-size: map-get($estilos, 1rem);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -146,5 +165,10 @@
     margin-bottom: 15px;
     margin-top: 15px;
     font-family: 'Ubuntu', sans-serif;
+    transform: translate(0px, 0px);
+    transition: background-color 1s;
+}
+.BotonComprar:hover{
+    background-color: red;
 }
 /*FIN DEL MAIN*/
