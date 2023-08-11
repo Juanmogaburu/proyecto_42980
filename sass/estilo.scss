@@ -32,6 +32,29 @@
 }    
 /*fin del header*/
 /*main*/
+.DivVideo{
+    color: white;
+    color: map-get($estilos, colordos);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 30px;
+    font-size: 1.8rem;
+
+    .ParrafoFinalProductos{
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    background-color:rgb(255, 255, 255);
+    color: black;
+    font-size: 2rem;
+    padding: 1px 300px; 
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    }
+}
 /*informacion y padre de los productos, repuestos y ind y acc*/
 .TodoDiv{
     background-color: rgb(58, 58, 58);
@@ -102,6 +125,33 @@
 /*FIN DEL FOTTER*/
 /*estilo para pantallas pequeñas, como telefonos moviles*/
 @media (max-width:600px){
+    .ParrafoFinalProductos {
+        font-size: 1.5rem;
+        padding: 10px; 
+    }
+
+    .ParrafoFinalProductos video {
+        width: 100%;
+    }
+
+    .diverror{
+        font-size: map-get($estilos, 1rem);
+        color: map-get($estilos, colordos);
+        background-color: map-get($estilos, color);
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        .error404{
+            font-size: map-get($estilos, 1rem);
+            color: map-get($estilos, colordos);
+            background-color: map-get($estilos, color);
+            margin-top: auto;
+            width: 350px;
+            height: 150px;
+            margin-top: 100px;
+            margin-bottom: 100px; 
+        }
+    }
 /* Estilos para la navegación */
 .Navegacion {
     background-color: black;
@@ -141,12 +191,13 @@
     margin-top: auto;
     /*imagenes de los productos y respuestos*/
         .ImagenesProductos{
-            font-size: $rem;
-            color: $colordos;
+            font-size: map-get($estilos, 1rem);
+            color: white;
             background-color: white;
             margin-top: auto;
-            width: 700px;
-            height: 400px;
+            width: 400px;
+            height: 200px;
+            width: 100%;
         }
     }
 /*formularios de la pagina de consultas*/
@@ -259,8 +310,7 @@ nav ul li a{
     margin-bottom: 0px;
     display: block;
     margin-top: auto;
-    width: 100vw;
-    padding: 0px 10px;
+    width: 100%;
 }
 /* h2 de la pagina productos*/
 .TextoBuscados{
@@ -271,20 +321,8 @@ nav ul li a{
     font-size: 2rem;
     margin-bottom: 0px;
     margin-top: auto;
-    width: 100vw;
-    display: block;
-}
-/*informacion de donde vienen las motos*/
-.ParrafoFinalProductos{
-    font-family: 'Bebas Neue', sans-serif;
-    text-align: center;
-    background-color:rgb(255, 255, 255);
-    color: black;
-    font-size: 2rem;
-    padding: 1px 300px; 
-    display: block;
     width: 100%;
-    margin-top: 10px;
+    display: block;
 }
 /*h2 de la pagina consultas*/
 .ParteAyuda{

@@ -103,16 +103,16 @@
     display: block;
 }
 /*informacion de donde vienen las motos*/
-.ParrafoFinalProductos{
-    font-family: 'Bebas Neue', sans-serif;
-    text-align: center;
-    background-color:rgb(255, 255, 255);
+.ParrafoFinalProductos {
     color: black;
-    font-size: 2rem;
-    padding: 1px 300px; 
-    display: block;
-    width: 100%;
+    background-color: map-get($estilos, colordos);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Bebas Neue', sans-serif;
     margin-top: 10px;
+    font-size: 2rem;
 }
 /*h2 de la pagina consultas*/
 .ParteAyuda{
