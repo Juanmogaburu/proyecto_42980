@@ -184,6 +184,7 @@
 }
 
 /*FIN DEL FOTTER*/
+/*mixins*/
 .Navegacion {
   background-color: black;
   display: flex;
@@ -193,6 +194,7 @@
 .Navegacion .ListaItem {
   font-family: "Bebas Neue", sans-serif;
   color: white;
+  background-color: rgb(58, 58, 58);
   text-align: center;
   font-size: 1.3rem;
   padding: 5px;
@@ -201,8 +203,12 @@
   flex-direction: column;
   justify-content: center;
 }
+.Navegacion .ListaItem a {
+  color: white;
+  text-decoration: underline orange;
+}
 .Navegacion .ListaItem a:hover {
-  color: orange;
+  text-decoration: underline;
 }
 
 .TituloIndex {
@@ -232,6 +238,12 @@
 .FotoPrincipal {
   font-size: 1rem;
   padding: 20px 120px;
+}
+
+nav ul li a {
+  text-decoration-color: orange;
+  color: rgb(255, 255, 255);
+  background-color: rgb(58, 58, 58);
 }
 
 /*main*/
@@ -453,6 +465,7 @@
   margin-bottom: auto;
 }
 
+/*mixins*/
 /* Estilos para la navegación */
 .Navegacion {
   background-color: black;
