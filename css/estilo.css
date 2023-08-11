@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*map*/
 /*color de todas las paginas*/
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 * {
@@ -6,7 +7,10 @@
 }
 
 /*parrafo donde se hace propaganda*/
-nav ul li a {
+.nav {
+  background-color: rgb(58, 58, 58);
+}
+.nav .ul .li .a {
   text-decoration-color: orange;
   color: rgb(255, 255, 255);
   background-color: rgb(58, 58, 58);
@@ -191,7 +195,7 @@ nav ul li a {
 .Navegacion .ListaItem {
   font-family: "Bebas Neue", sans-serif;
   color: white; /* Cambiamos el color del texto para que sea visible en el fondo negro */
-  color: rgb(58, 58, 58);
+  color: white;
   text-align: center;
   font-size: 1.3rem; /* Aumentamos el tamaño del texto */
   padding: 5px; /* Reducimos el espacio interno para que no ocupe demasiado */
@@ -209,14 +213,14 @@ nav ul li a {
 nav ul li a {
   text-decoration-color: orange;
   color: rgb(255, 255, 255);
-  color: rgb(58, 58, 58);
+  color: white;
 }
 
 /*titulo de las paginas*/
 .TituloIndex {
   text-align: center;
   color: white;
-  color: rgb(58, 58, 58);
+  color: white;
   font-size: 3.2rem;
   margin-top: -8px;
 }
@@ -266,8 +270,9 @@ nav ul li a {
   color: white;
   background-color: white;
   margin-top: auto;
-  width: 700px;
-  height: 400px;
+  width: 400px;
+  height: 200px;
+  width: 100%;
 }
 
 /*formularios de la pagina de consultas*/
@@ -288,6 +293,26 @@ nav ul li a {
   font-size: 1rem;
   text-align: center;
   padding: 10px;
+}
+
+/*pagina de error 404*/
+.diverror {
+  font-size: 1rem;
+  color: white;
+  background-color: rgb(58, 58, 58);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.diverror .error404 {
+  font-size: 1rem;
+  color: white;
+  background-color: rgb(58, 58, 58);
+  margin-top: auto;
+  width: 800px;
+  height: 400px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 /*parrafo que habla de nuestros productos*/
@@ -319,23 +344,21 @@ nav ul li a {
   color: white;
   background-color: rgb(58, 58, 58);
   font-size: 2rem;
-  margin-bottom: 0px;
   display: block;
   margin-top: auto;
-  width: 100vw;
-  padding: 0px 10px;
+  width: 100%;
 }
 
 /* h2 de la pagina productos*/
 .TextoBuscados {
   color: white;
-  color: rgb(58, 58, 58);
+  color: white;
   font-family: "Bebas Neue", sans-serif;
   text-align: center;
   font-size: 2rem;
   margin-bottom: 0px;
   margin-top: auto;
-  width: 100vw;
+  width: 100%;
   display: block;
 }
 
@@ -355,33 +378,33 @@ nav ul li a {
 /*h2 de la pagina consultas*/
 .ParteAyuda {
   color: white;
-  color: rgb(58, 58, 58);
+  color: white;
   font-family: "Bebas Neue", sans-serif;
   text-align: left;
   font-size: 2rem;
   margin-bottom: 0px;
   margin-top: auto;
-  width: 100vw;
+  width: 100%;
   padding: 0px 15px;
 }
 
 /*h3 de la pagina consultas*/
 .ParteConsulta {
   color: white;
-  color: rgb(58, 58, 58);
+  color: white;
   font-family: "Bebas Neue", sans-serif;
   text-align: left;
   font-size: 2rem;
   margin-bottom: 0px;
   margin-top: auto;
-  width: 100vw;
+  width: 100%;
   padding: 0px 15px;
 }
 
 /*informacion de lo que va adentro de los div*/
 .Div {
   color: white;
-  color: rgb(58, 58, 58);
+  color: white;
   text-align: center;
   display: flex;
   align-items: center;
@@ -397,6 +420,7 @@ nav ul li a {
 }
 
 .BotonComprar {
+  background-color: rgb(58, 58, 58);
   font-size: 1rem;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -405,21 +429,24 @@ nav ul li a {
   margin-bottom: 15px;
   margin-top: 15px;
   font-family: "Ubuntu", sans-serif;
+  transform: translate(0px, 0px);
+  transition: background-color 1s;
+}
+
+.BotonComprar:hover {
+  background-color: red;
 }
 
 /*FIN DEL MAIN*/
-/*fotter*/
-/*logos de las redes*/
 .TituloRedes {
   display: flex;
   flex-direction: column;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1rem;
   background-color: white;
   color: rgb(58, 58, 58);
   text-align: center;
   margin-top: auto;
-  display: block;
 }
 .TituloRedes .LasRedes {
   color: white;
@@ -428,11 +455,11 @@ nav ul li a {
   width: 50px;
   height: 50px;
   background-color: white;
-  padding: 10px;
   align-items: center;
+  transform: translate(0px, 0px);
+  transition: background-color 1s;
 }
 
-/*copyright*/
 .ParrafoFinal {
   color: rgb(0, 0, 0);
   font-size: 1rem;
@@ -443,7 +470,6 @@ nav ul li a {
   margin-bottom: auto;
 }
 
-/*FIN DEL FOTTER*/
 /* Estilos para la navegación */
 .Navegacion {
   background-color: black;
@@ -536,6 +562,9 @@ nav ul li a {
   background-color: white;
   padding: 10px;
   align-items: center;
+}
+.TituloRedes .LasRedes:hover {
+  background-color: rgb(58, 58, 58);
 }
 
 /*FIN DEL FOTTER*/
@@ -774,6 +803,9 @@ nav ul li a {
     margin-bottom: 15px;
     margin-top: 15px;
     font-family: "Ubuntu", sans-serif;
+  }
+  .BotonComprar:hover {
+    background-color: rgb(58, 58, 58);
   }
   /*FIN DEL MAIN*/
   /*footer*/
